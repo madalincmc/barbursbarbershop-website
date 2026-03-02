@@ -22,7 +22,7 @@ export default function Navbar() {
                     {/* Logo */}
                     <div className="flex-shrink-0">
                         <Link href="/" className="font-serif text-2xl font-bold text-beige tracking-wider">
-                            BARBUR'S
+                            Barbur's Barber Shop
                         </Link>
                     </div>
 

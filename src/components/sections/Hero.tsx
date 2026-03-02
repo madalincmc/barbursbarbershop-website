@@ -22,7 +22,7 @@ export default function Hero() {
                     className="max-w-3xl"
                 >
                     <span className="text-accent uppercase tracking-[0.3em] text-sm font-semibold mb-6 block">
-                        Bun venit la Barbur's
+                        Bun venit la Barbur's Barber Shop
                     </span>
 
                     <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-beige leading-[1.1] mb-6">

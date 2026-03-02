@@ -9,7 +9,7 @@ export default function Footer() {
                     {/* Brand Col */}
                     <div className="space-y-4">
                         <Link href="/" className="font-serif text-3xl font-bold text-beige tracking-wider block">
-                            BARBUR'S
+                            Barbur's Barber Shop
                         </Link>
                         <p className="text-muted text-sm leading-relaxed max-w-xs">
                             Experiența clasică a bărbieritului combinată cu tehnici moderne, în inima orașului Baia Mare.
