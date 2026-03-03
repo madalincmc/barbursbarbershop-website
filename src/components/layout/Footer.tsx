@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { MapPin, Phone, Clock, Instagram, Facebook } from "lucide-react";
+import { TikTok } from "@/components/ui/TikTokIcon";
 
 export default function Footer() {
     return (
@@ -14,13 +15,20 @@ export default function Footer() {
                         <p className="text-muted text-sm leading-relaxed max-w-xs">
                             Experiența clasică a bărbieritului combinată cu tehnici moderne, în inima orașului Baia Mare.
                         </p>
-                        <div className="flex space-x-4 pt-2">
-                            <a href="#" className="text-muted hover:text-accent transition-colors">
-                                <Instagram size={20} />
-                            </a>
-                            <a href="#" className="text-muted hover:text-accent transition-colors">
-                                <Facebook size={20} />
-                            </a>
+                        <div className="pt-4 border-t border-brand-dark/30 mt-6">
+                            <h4 className="text-beige font-semibold mb-1 text-sm">Urmărește-ne</h4>
+                            <p className="text-muted text-xs mb-3">Vezi cele mai noi tunsori și transformări.</p>
+                            <div className="flex space-x-2">
+                                <a href="https://www.facebook.com/profile.php?id=100063889680059" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop Facebook" className="text-muted hover:text-accent transition-colors p-2 -ml-2">
+                                    <Facebook size={20} />
+                                </a>
+                                <a href="https://www.instagram.com/barbursbarbershop/" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop Instagram" className="text-muted hover:text-accent transition-colors p-2">
+                                    <Instagram size={20} />
+                                </a>
+                                <a href="https://www.tiktok.com/@barbur.sbarbershop" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop TikTok" className="text-muted hover:text-accent transition-colors p-2">
+                                    <TikTok size={20} />
+                                </a>
+                            </div>
                         </div>
                     </div>
 

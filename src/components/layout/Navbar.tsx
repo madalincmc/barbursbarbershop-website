@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram, Facebook } from "lucide-react";
+import { TikTok } from "@/components/ui/TikTokIcon";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -77,6 +78,17 @@ export default function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
+                        <div className="flex justify-center space-x-6 mt-8 pb-4 border-t border-brand-dark/30 pt-6 w-full">
+                            <a href="https://www.facebook.com/profile.php?id=100063889680059" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop Facebook" className="text-muted hover:text-accent transition-colors p-2">
+                                <Facebook size={24} />
+                            </a>
+                            <a href="https://www.instagram.com/barbursbarbershop/" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop Instagram" className="text-muted hover:text-accent transition-colors p-2">
+                                <Instagram size={24} />
+                            </a>
+                            <a href="https://www.tiktok.com/@barbur.sbarbershop" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop TikTok" className="text-muted hover:text-accent transition-colors p-2">
+                                <TikTok size={24} />
+                            </a>
+                        </div>
                     </div>
                 </div>
             )}

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Button from "@/components/ui/Button";
-import { MapPin, Phone, Clock, Mail } from "lucide-react";
+import { MapPin, Phone, Clock, Instagram, Facebook, Link as LinkIcon } from "lucide-react";
+import { TikTok } from "@/components/ui/TikTokIcon";
 
 export const metadata: Metadata = {
     title: "Contact & Locație | Barbur's Barber Shop Baia Mare",
@@ -56,6 +57,24 @@ export default function ContactPage() {
                                         <li className="flex justify-between border-b border-brand-dark/30 pb-1"><span>S</span> <span>09:00 - 15:00</span></li>
                                         <li className="flex justify-between text-accent font-medium"><span>D</span> <span>Închis</span></li>
                                     </ul>
+                                </div>
+                            </div>
+
+                            <div className="flex items-start">
+                                <LinkIcon className="text-accent mt-1 mr-4 w-6 h-6 flex-shrink-0" />
+                                <div>
+                                    <h4 className="text-beige font-bold mb-3">Rețele Sociale</h4>
+                                    <div className="flex space-x-2 -ml-2">
+                                        <a href="https://www.facebook.com/profile.php?id=100063889680059" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop Facebook" className="text-muted hover:text-accent transition-colors p-2">
+                                            <Facebook size={24} />
+                                        </a>
+                                        <a href="https://www.instagram.com/barbursbarbershop/" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop Instagram" className="text-muted hover:text-accent transition-colors p-2">
+                                            <Instagram size={24} />
+                                        </a>
+                                        <a href="https://www.tiktok.com/@barbur.sbarbershop" target="_blank" rel="noopener noreferrer" aria-label="Barbur's Barber Shop TikTok" className="text-muted hover:text-accent transition-colors p-2">
+                                            <TikTok size={24} />
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>

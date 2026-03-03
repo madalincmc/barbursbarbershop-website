@@ -15,6 +15,11 @@ export default function Schema() {
             "postalCode": "430000",
             "addressCountry": "RO"
         },
+        "sameAs": [
+            "https://www.facebook.com/profile.php?id=100063889680059",
+            "https://www.instagram.com/barbursbarbershop/",
+            "https://www.tiktok.com/@barbur.sbarbershop"
+        ],
         "priceRange": "$$",
         "aggregateRating": {
             "@type": "AggregateRating",
