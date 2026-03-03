@@ -81,15 +81,16 @@ export default function ContactPage() {
                     </div>
 
                     {/* Google Maps Embed */}
-                    <div className="w-full lg:w-2/3 min-h-[400px]">
+                    <div className="w-full lg:w-2/3 h-[400px] md:h-auto md:min-h-[500px] overflow-hidden">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.1691132717835!2d23.56434711563604!3d47.64985437918738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736f86cae0a116b%3A0xc6cf6eefffd5f303!2sBarbur&#39;s%20Barber%20Shop!5e0!3m2!1sen!2sro!4v1700000000000!5m2!1sen!2sro"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.1691132717835!2d23.56434711563604!3d47.64985437918738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4736f86cae0a116b%3A0xc6cf6eefffd5f303!2sBarbur's%20Barber%20Shop!5e0!3m2!1sro!2sro!4v1709400000000!5m2!1sro!2sro"
                             width="100%"
                             height="100%"
                             style={{ border: 0, filter: "grayscale(100%) invert(90%) contrast(80%) hue-rotate(180deg)" }}
                             allowFullScreen={true}
                             loading="lazy"
                             referrerPolicy="no-referrer-when-downgrade"
+                            title="Barbur's Barber Shop Location Map"
                         ></iframe>
                     </div>
                 </div>
