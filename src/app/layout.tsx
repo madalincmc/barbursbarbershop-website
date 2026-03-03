@@ -13,13 +13,13 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.barburs.ro"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://barbursbarbershop-website.vercel.app"),
   title: "Barbur's Barber Shop | Frizerie & Barber Shop Premium în Baia Mare",
   description: "Cauți un tuns bărbați, tuns copii sau aranjat barbă în Baia Mare? Barbur's Barber Shop îți oferă stil clasic și precizie modernă.",
   openGraph: {
     title: "Barbur's Barber Shop | Baia Mare",
     description: "Frizerie & Barber Shop Premium în Baia Mare. Programează-te acum pentru un tuns sau aranjat barbă de excepție.",
-    url: "https://www.barburs.ro",
+    url: "https://barbursbarbershop-website.vercel.app",
     siteName: "Barbur's Barber Shop",
     images: [
       {
