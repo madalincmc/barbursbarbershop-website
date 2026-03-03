@@ -13,8 +13,31 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.barburs.ro"),
   title: "Barbur's Barber Shop | Frizerie & Barber Shop Premium în Baia Mare",
   description: "Cauți un tuns bărbați, tuns copii sau aranjat barbă în Baia Mare? Barbur's Barber Shop îți oferă stil clasic și precizie modernă.",
+  openGraph: {
+    title: "Barbur's Barber Shop | Baia Mare",
+    description: "Frizerie & Barber Shop Premium în Baia Mare. Programează-te acum pentru un tuns sau aranjat barbă de excepție.",
+    url: "https://www.barburs.ro",
+    siteName: "Barbur's Barber Shop",
+    images: [
+      {
+        url: "/images/og-barburs.jpg", // We will create this image route
+        width: 1200,
+        height: 630,
+        alt: "Barbur's Barber Shop Baia Mare - Interior",
+      },
+    ],
+    locale: "ro_RO",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Barbur's Barber Shop | Baia Mare",
+    description: "Frizerie & Barber Shop Premium în Baia Mare. Programează-te acum!",
+    images: ["/images/og-barburs.jpg"],
+  },
 };
 
 import Navbar from "@/components/layout/Navbar";
